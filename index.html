@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manikanta Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/Images/logoooo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#main">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>FRONTEND DEVELOPER</p>
+          <h1>
+            Hi, I'm <span>Manikant</span><br />
+            From Hyderabad
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!----------- -----------ABOUT------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://t3.ftcdn.net/jpg/06/01/17/18/240_F_601171862_l7yZ0wujj8o2SowiKTUsfLEEx8KunYNd.jpg"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi, I'm Manikanta Yara, a passionate developer with strong
+              knowledge in Python, Tailwind CSS, SQL, HTML, JavaScript,
+              React.js, and Node.js. I specialize in creating dynamic websites
+              and applications, leveraging my skills to build efficient,
+              responsive, and visually appealing digital experiences.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Services
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-containes active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Web user inter face</li>
+                <li>
+                  <span>WEB DEVELOPMENT</span><br />
+                  I can creat web apps
+                </li>
+                <li>
+                  <span>MANUPLATE THE DATA</span><br />
+                  Have the knowledge in manuplating the data
+                </li>
+              </ul>
+            </div>
+            <div class="tab-containes" id="education">
+              <ul>
+                <li>
+                  <span>B.TECH</span><br />Percentage:67 <br />
+                  Mallareddy Institution
+                </li>
+                <li>
+                  <span>Inter</span><br />Percentage:95% <br />
+                  Sri Aryabhata Junior College
+                </li>
+                <li>
+                  <span>10th(SSC)</span> <br />Percentage:83% <br />
+                  CVN High School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------SKILLS --------------->
+    <div id="main">
+      <div class="SKILLS">
+        <h1>SKILLS</h1>
+      </div>
+      <div id="elem1" class="elem">
+        <h1>HTML</h1>
+        <img
+          src="https://img.freepik.com/premium-photo/html-word-illustration_93826-813.jpg?w=740"
+          alt=""
+        />
+      </div>
+      <div class="elem">
+        <h1>CSS</h1>
+        <img
+          src="https://img.freepik.com/premium-vector/vector-design-css-code-icon-style_1134108-79223.jpg?w=360"
+          alt=""
+        />
+      </div>
+
+      <div class="elem">
+        <h1>JavaScript</h1>
+        <img
+          src="https://img.freepik.com/premium-photo/javascript-programming-text_272306-138.jpg?w=826"
+          alt=""
+        />
+      </div>
+      <div class="elem">
+        <h1>ReactJs</h1>
+        <img
+          src="https://img.freepik.com/free-vector/atom-science-education-icon-vector-neon-digital-graphic_53876-114080.jpg?ga=GA1.1.170458255.1722507432&semt=sph"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+
+  <!---------------PORTFOLIO----------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">MY WORK</h1>
+      <div class="work-list">
+        <div class="work">
+          <img
+            src="https://img.freepik.com/premium-photo/fanta-drink-3d-can-provide-realistic-fresh-energy-summer_981650-31605.jpg?size=626&ext=jpg&ga=GA1.1.742758995.1722530337&semt=ais_hybrid"
+          />
+          <div class="layer">
+            <h3>CoCo Cola clone Website</h3>
+            <p>
+              Developed an animated Coca-Cola-themed website using GSAP, HTML,
+              CSS, and JavaScript, showcasing dynamic animations and interactive
+              features to enhance user engagement."
+            </p>
+          </div>
+        </div>
+        <div class="work">
+          <img
+            src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Food Much Website</h3>
+            <p>
+              Developed a Food Munch clone using React.js, HTML, and Tailwind
+              CSS, replicating the user interface and functionality of the
+              original platform to demonstrate advanced front-end skills.
+            </p>
+          </div>
+        </div>
+        <div class="work">
+          <img
+            src="https://img.freepik.com/premium-vector/pacific-islander-boy-his-30s-playing-cricket_1238364-85543.jpg?ga=GA1.1.170458255.1722507432&semt=ais_hybrid"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Cricket Animation Website</h3>
+            <p>
+              Created a cricket-themed animation website telling the story of
+              three friends, using HTML, CSS, JavaScript, and GSAP to deliver
+              engaging animations and an immersive storytelling experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------contact----------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>manisaiyara@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>6304035329</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/manikanta-yara-887945255/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/manikanta.y_">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          <a href="/Images/IBM Fronted 1R.pdf" download class="cv"
+            >Download CV</a
+          >
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-containes");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var elem = document.querySelectorAll(".elem");
+    elem.forEach(function (val) {
+      val.addEventListener("mouseenter", function () {
+        val.childNodes[3].style.opacity = 1;
+      });
+      val.addEventListener("mouseleave", function () {
+        val.childNodes[3].style.opacity = 0;
+      });
+      val.addEventListener("mousemove", function (dets) {
+        val.childNodes[3].style.left = dets.x + "px";
+        <!-- val.childNodes[3].style.top = dets.y+"px"; -->
+      });
+    });
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbyBey2sByBsA-32L-yUS20th6k5SXkbXpP1xZeLItFuT3j5FHI7lkOst8wVhy00YmfW/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          msg.innerHTML = "Message sent successfully";
+          setTimeout(function () {
+            msg.innerHTML = "";
+          }, 1000);
+          form.reset();
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+</html>
